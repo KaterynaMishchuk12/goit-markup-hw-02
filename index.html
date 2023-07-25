@@ -5,7 +5,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <meta name="description" content="WebStudio description meta tag content" />
+<link rel="stylesheet" href="./css/styles.css">    
+<meta name="description" content="WebStudio description meta tag content" />
     <title>WebStudio</title>
   </head>
 
@@ -13,18 +14,18 @@
   <body>
     <header>
       <nav class="nav">
-        <a class="logo link" href="./index.html"><span class="web">Web</span>Studio</a>
+        <a class="logo" href="./index.html">Web<span class="logo-accent">Studio</span> </a>
         <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./index.html">Portfolio</a></li>
-          <li><a href="./index.html">Contacts</a></li>
+          <li><a class="nav-link" href="./index.html">Studio</a></li>
+          <li><a class="nav-link" href="./index.html">Portfolio</a></li>
+          <li><a class="nav-link" href="./index.html">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contacts -->
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
@@ -33,42 +34,43 @@
       <!--section 1-->
       <section>
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="button" type="button">Order Service</button>
       </section>
       <!--section 2-->
       <section>
-        <h2>Description of the company</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <h2 hidden>Description of the company</h2>
+        <ul class="list">
+          <li class="list-item">
+            <h3 class="list-title">Strategy</h3>
+            <p class="list-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="list-item">
+            <h3 class="list-title">Punctuality</h3>
+            <p class="list-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="list-item">
+            <h3 class="list-title">Diligence</h3>
+            <p class="list-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="list-item">
+            <h3 class="list-title">Technologies</h3>
+            <p class="list-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
+      
       <!-- Section 3-->
       <section>
         <h2>What are we doing</h2>
@@ -101,42 +103,42 @@
            <!-- Section 4-->
       <section>
         <h2>Our Team</h2>
-        <ul>
-          <li>
+        <ul class="hero-list">
+          <li class="hero-list-item">
             <img
               src="./images/img_sqo.jpg"
               alt="Portrait of Mark Guerrero"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="hero-name">Mark Guerrero</h3>
+            <p class="list-text">Product Designer</p>
           </li>
-          <li>
+          <li  class="hero-list-item">
             <img
               src="./images/img2_sqo.jpg"
               alt="Portrait of Tom Ford"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3  class="hero-name">Tom Ford</h3>
+            <p class="list-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="hero-list-item">
             <img
               src="./images/img(3)_sqo.jpg"
               alt="Portrait of Camila Garcia"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="hero-name">Camila Garcia</h3>
+            <p class="list-text">Marketing</p>
           </li>
-          <li>
+          <li class="hero-list-item">
             <img
               src="./images/img(4)_sqo.jpg"
               alt="Portrait of Daniel Wilson"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="hero-name">Daniel Wilson</h3>
+            <p class="list-text">UI Designer</p>
           </li>
         </ul>
       </section>
