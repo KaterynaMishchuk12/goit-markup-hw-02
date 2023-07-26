@@ -18,7 +18,7 @@ a:link{text-decoration: none;}
 
 .logo-link{
 color: #4D5AE5;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
@@ -28,7 +28,7 @@ text-transform: uppercase;
 text-decoration: none;
 }
 .logo-accent{color: var(--navyblue,);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -42,12 +42,12 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.32px;}
 
-    .nav-link{color: #2E2F42;}
-    .nav-link:hover,
-    .nav-link:focus{color: #404BBF;}
+    .nav-list-link{color: #2E2F42;}
+    .nav-list-link:hover,
+    .nav-list-link:focus{color: #404BBF;}
 
     .contact-link{color:#434455;
-    letter-spacing: 0,02em;}
+        letter-spacing: 0.32px;}
     .contact-link:hover,
     .contact-link:focus{color: #404BBF;}
 
@@ -58,9 +58,10 @@ text-decoration: none;
         font-style: normal;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 1.12px;
-    }
-    .section-three-title{color: var(--navyblue, #2E2F42);
+        letter-spacing: 1.12px;}
+    .section-one{background-color: var(--navyblue);}
+
+    .section-three-title{color: var(--navyblue);
         text-align: center;
         font-family: Roboto;
         font-size: 36px;
@@ -82,6 +83,7 @@ text-decoration: none;
         text-transform: capitalize;}
     .button{
         color: var(--white);
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -94,6 +96,7 @@ text-decoration: none;
 
     .portfolio-button{color: var(--iris);
         text-align: center;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -140,6 +143,14 @@ h2{color: var(--navyblue);
 ul{list-style-type: none;}
 .image-list{list-style: none;}
 
+.portfolio-list{list-style: none;}
+.portfolio-link{text-decoration: none;}
+.portfolio-list-title{color: var(--navyblue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;}
 .portfolio-list-item{color: var(--navyblue);
     font-size: 20px;
     font-style: normal;
@@ -153,7 +164,8 @@ ul{list-style-type: none;}
     line-height: 1.5;
     letter-spacing: 0.32px;}
 
-footer{background-color: var(--navyblue);}
+footer{background-color: var(--navyblue);
+   font-family: "Raleway", sans-serif;}
 .footer .logo-accent{color: var(--cloud)}
 .footer-text{color: var(--cloud,);
     font-size: 16px;
