@@ -4,7 +4,6 @@ body{
     background-color: #FFF;
     line-height: 1.5;
 }
-
 :root{
     --navyblue: #2E2F42; 
     --white: #FFF;
@@ -16,6 +15,7 @@ body{
 }
 .address{font-style: normal;}
 a:link{text-decoration: none;}
+.link{ text-decoration: none;}
 
 .logo-link{
 color: #4D5AE5;
@@ -39,14 +39,23 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
+    .nav-list{list-style: none;}
 
-    .nav-list-link{color: #2E2F42;
-    letter-spacing: 0.02em;}
+    .list{list-style: none;}
+
+    .nav-list-link{
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration:none;}
     .nav-list-link:hover,
     .nav-list-link:focus{color: #404BBF;}
 
     .contact-link{color:#434455;
-        letter-spacing: 0.32px;}
+        letter-spacing: 0.02em;
+        text-decoration: none;}
     .contact-link:hover,
     .contact-link:focus{color: #404BBF;}
 
@@ -61,7 +70,6 @@ text-decoration: none;
 
     .section-three-title{color: var(--navyblue);
         text-align: center;
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -71,7 +79,6 @@ text-decoration: none;
     .section-four{background-color: #F4F4FD;}
     .section-four-title{color: var(--navyblue);
         text-align: center;
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -108,13 +115,13 @@ text-decoration: none;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.2em;}
+letter-spacing: 0.02em;}
 .list-text{
 color: var(--slate);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
 }
 .hero-list-item{background-color: #FFFFFF;}
 .hero-name{color: var(--navyblue);
