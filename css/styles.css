@@ -52,14 +52,14 @@ text-decoration: none;
     letter-spacing: 0.02em;
     text-decoration:none;}
     link .nav-link{list-style: none;}
-    link .nav-link:hover,
-    link .nav-link:focus{color: #404BBF;}
+    .link .nav-link:hover,
+    .link .nav-link:focus{color: #404BBF;}
 
     .contact-link{color:#434455;
         letter-spacing: 0.02em;
         text-decoration: none;}
-    link .contact-link:hover,
-    link .contact-link:focus{color: #404BBF;}
+    .link .contact-link:hover,
+    .link .contact-link:focus{color: #404BBF;}
 
     .section-one-title{color: #FFF;
         background-color: var(--navyblue);
