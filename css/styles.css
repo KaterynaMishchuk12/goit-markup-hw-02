@@ -12,6 +12,7 @@ body{
     --cloud: #F4F4FD;
     --slate: #434455;
     --ocean: #404bbf;
+    --font-family:"Roboto", sans-serif;
 }
 .address{font-style: normal;}
 a:link{text-decoration: none;}
@@ -20,29 +21,27 @@ a:link{text-decoration: none;}
 color: #4D5AE5;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
-font-style: normal;
 font-weight: 800;
 line-height: 1.17;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 }
 .logo-accent{color: var(--navyblue,);
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-style: normal;
+    font-size: 18px;    
     font-weight: 800;
     line-height: 1.16;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;}
 .nav{
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;}
+    letter-spacing: 0.02em;}
 
-    .nav-list-link{color: #2E2F42;}
+    .nav-list-link{color: #2E2F42;
+    letter-spacing: 0.02em;}
     .nav-list-link:hover,
     .nav-list-link:focus{color: #404BBF;}
 
@@ -55,20 +54,18 @@ text-decoration: none;
         background-color: var(--navyblue);
         text-align:center;
         font-size: 56px;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 1.12px;}
+        letter-spacing: 0.02em;}
     .section-one{background-color: var(--navyblue);}
 
     .section-three-title{color: var(--navyblue);
         text-align: center;
         font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.11;
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;}
 
     .section-four{background-color: #F4F4FD;}
@@ -76,19 +73,17 @@ text-decoration: none;
         text-align: center;
         font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.11;
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;}
     .button{
         color: var(--white);
-        font-family: "Roboto", sans-serif;
+        font-family: var(--inherit);
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.64px;
+        letter-spacing: 0.04em;
         background-color:var(--iris);
     cursor: pointer;}
     .button:hover,
@@ -96,12 +91,11 @@ text-decoration: none;
 
     .portfolio-button{color: var(--iris);
         text-align: center;
-        font-family: "Roboto", sans-serif;
+        font-family: var(--inherit);
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.64px;
+        letter-spacing: 0.04em;
         background-color: var(--cloud);
         cursor: pointer;}
     .portfolio-button:hover,
@@ -112,17 +106,15 @@ text-decoration: none;
 
 .list-title{color: var(--navyblue);
 font-size: 20px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.4px;}
+letter-spacing: 0.2em;}
 .list-text{
 color: var(--slate);
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.2em;
 }
 .hero-list-item{background-color: #FFFFFF;}
 .hero-name{color: var(--navyblue);
@@ -131,14 +123,14 @@ letter-spacing: 0.32px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;}
+    letter-spacing:0.02em;}
 
 h2{color: var(--navyblue);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;}
 ul{list-style-type: none;}
 .image-list{list-style: none;}
@@ -147,22 +139,19 @@ ul{list-style-type: none;}
 .portfolio-link{text-decoration: none;}
 .portfolio-list-title{color: var(--navyblue);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;}
+    letter-spacing: 0.02em;}
 .portfolio-list-item{color: var(--navyblue);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: 0.4px;}
+    letter-spacing: 0.02em;}
 .portfolio-list-item-text{color: var(--slate);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;}
+    letter-spacing: 0.02em;}
 
 footer{background-color: var(--navyblue);
    font-family: "Raleway", sans-serif;}
@@ -172,4 +161,4 @@ footer{background-color: var(--navyblue);
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;}
+    letter-spacing: 0.02em;}
