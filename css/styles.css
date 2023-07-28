@@ -53,6 +53,7 @@ text-decoration: none;
     .nav-link:focus{color: var(--ocean);}
 
     .contact-link{color:var(--slate);
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-decoration: none;}
     .contact-link:hover,
