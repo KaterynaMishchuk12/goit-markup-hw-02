@@ -15,7 +15,6 @@ body{
 }
 .address{font-style: normal;}
 a:link{text-decoration: none;}
-.link{ text-decoration: none;}
 
 .logo-link{
 color: #4D5AE5;
@@ -25,7 +24,6 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-text-decoration: none;
 }
 .logo-accent{color: var(--navyblue,);
     font-family: "Raleway", sans-serif;
